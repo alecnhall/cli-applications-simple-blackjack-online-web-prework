@@ -53,9 +53,9 @@ end
 #####################################################
 
 def runner
-  until card_total <= 21 do
-    welcome
-    initial_round
+  welcome
+  card_total = initial_round
+  until card_total >= 21
     prompt_user
     hit?
     display_card_total
