@@ -55,6 +55,7 @@ def runner
   until card_total <= 21 do
     welcome
     initial_round
+    prompt_user
     hit?
     display_card_total
   end
