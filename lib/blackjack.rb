@@ -33,9 +33,7 @@ end
 def hit?(card_total)
   prompt_user
   get_user_input
-  return card_total
-  if get_user_input == "h"
-    p "success"
+
   end
 end
 
