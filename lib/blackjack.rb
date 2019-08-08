@@ -33,7 +33,6 @@ end
 def hit?(card_total)
   prompt_user
   choice = get_user_input
-  return card_total
   if choice == 's'
     prompt_user
   elsif choice == 'h'
